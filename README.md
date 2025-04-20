@@ -10,7 +10,9 @@ how to install this tools :
   pip3 install requests[socks]
   or just run autoTor it will install everything
 
-1: git clone https://github.com/FDX100/Auto_Tor_IP_changer.git
+1:  
+
+  ```bash git clone https://github.com/hackercode247/Auto_Tor_IP_Changer.git ```
 
 2 : cd Auto_Tor_IP_changer
 
@@ -30,3 +32,20 @@ how to install this tools :
 
 ============
 http://facebook.com/ninja.hackerz.kurdish/
+
+
+
+🛠️ প্রয়োজনীয় সাপোর্টিং সেটআপ (1 বার করতে হবে):
+
+    sudoers ফাইলে এই লাইনটা থাকা লাগবে (visudo দিয়ে):
+
+```bash
+  sudo visudo
+```
+
+
+```bash
+kali ALL=(ALL) NOPASSWD: /usr/sbin/service tor start, /usr/sbin/service tor reload
+```
+
+
